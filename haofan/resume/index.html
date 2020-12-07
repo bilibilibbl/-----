@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	
+			<svg width="1000" height="90" xmlns="http://www.w3.org/2000/svg">
+
+  <g> 
+
+    <image xlink:href="assets/images/girl.gif" x="750" y="0" height="90" width="150" >
+
+    <animate attributeName="x" values="100;750;30;" dur="10s" repeatCount="indefinite"/>
+
+    </image>
+	  
+	  	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]郭善霖-网络与新媒体2班</title>
+    <link rel="shortcut icon" href="assets/images/sock.png" type="image/x-icon">
+     <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    
+	<header class="header"></header>
+
+    <article class="container">
+<section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+				
+		<input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+	
+	      
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#DDA0DD;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:#9370DB;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#9370DB;}
+                    input:focus + .slider{box-shadow:0 0 1px：#9370DB;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+                </section>
+
+                <h1 class="name">郭善霖</h1>
+                <h4 class="info-job">秃头网络与新媒体人</h4>
+
+            </section>
+
+					
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <img src="assets/images/glove.png" weight:"40" height="40">基本信息</h2>
+                <hr/>
+                <ul>
+                  <li>
+                        <label>个人信息</label>
+                    <span>郭善霖 / 女/ 19岁</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>还没考四级</span>
+                    </li>
+                    <li>
+                        <label>计算机水平</label>
+                        <span>没考呢</span>
+                  </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <img src="assets/images/Hat.png" weight:"40" height="40">联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:13417871772" target="_blank">13417871772</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="mailto:530605776@qq.com" target="_blank">530605776@qq.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="https://gitee.com/jy8gsl" target="_blank">gitee.com/</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/bilibilibbl" target="_blank">github.com/bilibilibbl</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <img src="assets/images/Short skirt.png" weight:"40" height="40">技能点</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>HTML</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CSS</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>JavaScript</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>睡觉</label>
+                        <progress value="99" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>吃饭</label>
+                        <progress value="100" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>打游戏</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="qrcode info-unit">
+                <h2><img src="assets/images/shorts.png" weight:"40" height="40">二维码</h2>
+                <hr/>
+                <img src="data:image/png;base64,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" style="width: 70%;" alt="请给我高分！">
+            </section>
+
+            <!-- 技术栈 -->
+            <!-- <div class="stack info-unit">
+                    <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <label>前端</label>
+                            <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
+                        </li>
+                        <li>
+                            <label>后端</label>
+                            <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
+                        </li>
+                        <li>
+                            <label>其他</label>
+                            <span>Git、SVN、Markdown</span>
+                        </li>
+                    </ul>
+                </div> -->
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <img src="assets/images/Cap.png" weight:"40" height="40">教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>珠海市斗门一中 - （理科）</span>
+                            <time>2017.9-2020.6</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>500/1000</mark>，每天都在数物化生中垂死挣扎</p>
+                    </li>
+                    <li>
+                      <h3> <span>中山大学南方学院 - 网络与新媒体（本科）</span>
+                        <time>2020.9-在读</time>
+                      </h3>
+                      <p>专业排名
+                            <mark>500/1000</mark>，每天都在努力的想看懂代码到底是什么 </p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 高光时刻 -->
+            <section class="work info-unit">
+                <h2>
+                    <img src="assets/images/Stockings.png" weight:"40" height="40">高光时刻</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[经历1]）参加象棋比赛 </span>
+                            <time>小学六年</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>在珠海市象棋比赛取得了好几次
+                                <mark>第二名/第三名</mark>，在代表珠海市参加广东省象棋比赛
+                                <mark>取得第六名成绩</mark>。</li>
+                            <li>在代表广东省参加全国赛的选拔中
+                                <em>惨败</em>。</li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[经历2]）参加唱歌比赛</span>
+                            <time>高一高二</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>在两届的十大歌手的比赛里都取得了
+                                <mark>第二名</mark>
+                          </li>
+                            <li>赢得了
+                              <mark>一台三星微单相机</mark>
+                              以及
+                              <mark>一台拍立得+两盒相纸 </mark>
+                            </li>
+                        </ul>
+						
+                    </li>
+                </ul>
+</section>
+
+            <!-- 大学目标 -->
+            <section class="project info-unit">
+                <h2>
+					<img src="assets/images/headflower.png" weight:"40" height="40">大学目标</h2>
+<hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[目标1]学会处理人际关系</span>
+                            <span class="link">
+
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.6-2024.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>努力踏出以前难以迈出的第一步</li>
+                            <li>
+                                <img src="assets/images/love.gif" height="20">
+                                [1]主动和不熟的同学说第一句话
+                                <br>
+                                <img src="assets/images/love.gif" height="20">&nbsp;[2]尽力完成社团的任务
+                                <br>
+                                <img src="assets/images/love.gif" height="20">
+                                [3]主动争取各种提升自己的机会
+                                
+                        </li></ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[目标2]好好学专业课</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.6-2024.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>关于网新</li>
+                            <li> <img src="assets/images/love.gif" height="20"> [1]发自内心的热爱我的专业，把喜欢变成擅长 <br>
+                              <img src="assets/images/love.gif" height="20">&nbsp;[2]不逃专业课 <br>
+                             <img src="assets/images/love.gif" height="20"> [3]底线
+                              <mark>不挂科</mark>
+                              <em class="fa fa-thumbs-o-up" aria-hidden="true"></em> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[目标3]好好学习英语</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.6-2024.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>关于English</li>
+                            <li>
+                                <img src="assets/images/love.gif" weight:"20" height="20">
+                                [1]英语小测60+
+                                <br/>
+                                <img src="assets/images/love.gif" weight:"20" height="20">
+                                [2]完成每次的作业
+                                <br/>
+                                <img src="assets/images/love.gif" weight:"20" height="20">
+                                [3]<em>不逃英语课</em>
+                            </li>
+                        </ul>
+                   
+</section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <img src="assets/images/Hairpin.png" weight:"40" height="40">自我评价/期望</h2>
+              <hr/>
+                <p>[完成五十公里，大学四年可以瘦十斤，攒钱拥有自己的存款，学会一门拿手的技术，经济独立]
+                    <span class="mark-txt">“苔花如米小 也学牡丹开”</span>接受自己的不完美，努力发现自己的闪光点，变得比现在自信。</p>
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>© 2020 郭善霖.文档最后更新时间为
+      <time>2020年11月27日</time>.</p>
+			<svg width="1000" height="40" xmlns="http://www.w3.org/2000/svg">
+
+  <g> 
+
+    <image xlink:href="assets/images/flower.png" x="0" y="0" height="100" width="150" >
+
+    <animate attributeName="x" values="750;750;30;" dur="5s" repeatCount="indefinite"/>
+
+    </image>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://gitee.com/itsay/resume" target="_blank">源代码</a>
+            </li>
+            <li>
+                <a href="http://if2er.com/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+		
+		
+</body>
+
+</html>
